@@ -69,7 +69,7 @@ async function getDatabase() {
   };
   console.log('\nHyperdb');
   console.log(' ‣ dir (storage) ', shortDir, isPrimary ? '(PRIMARY)' : '');
-  console.log(' ‣ key           ', dbKey);
+  console.log(' ‣ key           ', dbKey || '<empty>');
   console.log(' ‣ local.key     ', db.local.key.toString('hex'));
   console.log(' ‣ discoveryKey  ', db.discoveryKey.toString('hex'));
 
