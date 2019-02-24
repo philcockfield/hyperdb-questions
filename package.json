@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "node .",
-    "clean": "rm -rf .db"
+    "reset": "rm -rf .db"
   },
   "dependencies": {
     "discovery-swarm": "5.1.4",
