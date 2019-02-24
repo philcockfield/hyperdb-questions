@@ -21,6 +21,8 @@ Each console creates a new hyperdb, using the initial database's `dbKey`.
 
 The demo simply writes arbitray values to the primary database on a loop (`db-1`). Subsequence windows (`db-2`...etc) listen and log the changes.
 
+![demo](https://user-images.githubusercontent.com/185555/53307347-69d52080-38fc-11e9-9881-40cba99ed0c5.gif)
+
 To delete the databases and start again:
 
     npm run reset
@@ -34,6 +36,8 @@ I have a few orienting questions as I get my hands dirty with some code. I've po
 - [ ] Swarm (latest approach?) and “Hole Punching”? (firewalls etc)
 
 - [ ] Map/Reduce (when are these invoked, and how are they used by a consuming app?)
+
+- [ ] Is HyperDB the right library to use, or should I be working directly with HyperCore?
 
 ## Refs
 
