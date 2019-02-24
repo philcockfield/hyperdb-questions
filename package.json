@@ -1,6 +1,21 @@
 {
   "name": "hyperdb-questions",
   "version": "0.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "src/index",
+  "engines": {
+    "node": ">=7.6"
+  },
+  "scripts": {
+    "start": "node .",
+    "clean": "rm -rf .db"
+  },
+  "dependencies": {
+    "discovery-swarm": "5.1.4",
+    "fs-extra": "7.0.1",
+    "hyperdb": "3.5.0",
+    "inquirer": "6.2.2",
+    "rxjs": "6.4.0"
+  },
+  "license": "MIT",
+  "private": true
 }
