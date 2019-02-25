@@ -9,13 +9,11 @@ Also, HUGE gratitude and thanks to [@mafintosh](https://github.com/mafintosh) (a
 
 ## Questions
 
-I have a few orienting questions as I get my hands dirty with some code. I've posted each question as an [issue](https://github.com/philcockfield/hyperdb-questions/issues) to allow comments/discussion there.
+I have a few orienting questions as I star getting my hands dirty with some code. I've posted each question as an [issue](https://github.com/philcockfield/hyperdb-questions/issues) to allow comments/discussion there.
 
-- [ ] DiscoveryKey
-
-- [ ] Swarm (latest approach?) and “Hole Punching”? (firewalls etc)
-
-- [ ] Map/Reduce (when are these invoked, and how are they used by a consuming app?)
+- [ ] [Question #1](https://github.com/philcockfield/hyperdb-questions/issues/1): Using the Discovery Key
+- [ ] [Question #2](https://github.com/philcockfield/hyperdb-questions/issues/2): Swarm Setup (latest approach?)
+- [ ] [Question #3](https://github.com/philcockfield/hyperdb-questions/issues/3): Map and Reduce usage in HyperDB options
 
 ## Example Code
 

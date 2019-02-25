@@ -11,7 +11,7 @@ function create(args = {}) {
   return new Promise(resolve => {
     const { dir, dbKey } = args;
     const options = { valueEncoding: 'utf-8', reduce, map };
-    const db = args.dbKey ? hyperdb(dir, dbKey, options) : hyperdb(dir, options);
+    const db = dbKey ? hyperdb(dir, dbKey, options) : hyperdb(dir, options);
     db.on('ready', () => resolve(db));
   });
 }
