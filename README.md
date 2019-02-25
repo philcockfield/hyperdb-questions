@@ -5,9 +5,19 @@ Derived from [@cblgh's](https://github.com/cblgh) super helpful [example](https:
 
 ---
 
-Also, HUGE gratitude and thanks to @mafintosh (and everyone else contributing) for creating these building blocks. What a treasure trove of extraordinary work.
+Also, HUGE gratitude and thanks to [@mafintosh](https://github.com/mafintosh) (and everyone else contributing) for creating these building blocks. What a treasure trove of extraordinary work.
 
-## Example
+## Questions
+
+I have a few orienting questions as I get my hands dirty with some code. I've posted each question as an [issue](https://github.com/philcockfield/hyperdb-questions/issues) to allow comments/discussion there.
+
+- [ ] DiscoveryKey
+
+- [ ] Swarm (latest approach?) and “Hole Punching”? (firewalls etc)
+
+- [ ] Map/Reduce (when are these invoked, and how are they used by a consuming app?)
+
+## Example Code
 
 ```bash
 npm install # yada yada yada
@@ -26,18 +36,6 @@ The demo simply writes arbitray values to the primary database on a loop (`db-1`
 To delete the databases and start again:
 
     npm run reset
-
-## Questions
-
-I have a few orienting questions as I get my hands dirty with some code. I've posted each question as an [issue](https://github.com/philcockfield/hyperdb-questions/issues) to allow comments/discussion there.
-
-- [ ] DiscoveryKey
-
-- [ ] Swarm (latest approach?) and “Hole Punching”? (firewalls etc)
-
-- [ ] Map/Reduce (when are these invoked, and how are they used by a consuming app?)
-
-- [ ] Is HyperDB the right library to use, or should I be working directly with HyperCore?
 
 ## Refs
 
