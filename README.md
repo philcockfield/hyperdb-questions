@@ -27,7 +27,7 @@ Open `1..n` consoles running:
 
     npm start
 
-Each console creates a new hyperdb, using the initial database's `dbKey`.
+Each console creates a new [hyperdb](https://github.com/mafintosh/hyperdb), using the initial database's `dbKey`.
 
 The demo simply writes arbitray values to the primary database on a loop (`db-1`). Subsequence windows (`db-2`...etc) listen and log the changes.
 
